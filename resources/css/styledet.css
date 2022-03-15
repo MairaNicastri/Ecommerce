@@ -1,0 +1,37 @@
+.riempimentobg{
+    background: var(--brown)
+}
+.bggreen{
+    background: var(--brown);
+}
+.logodet{
+font-size: 80px;
+color: var(--yellow);
+}
+.riga{
+    border-bottom: solid 1px rgb(0, 0, 0);
+}
+.riga2{
+    border-bottom: solid 2px rgb(0, 0, 0);
+}
+.detimg{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.adet{
+    text-decoration: none;
+    font-weight:400;
+    color: black;
+    border-bottom: solid 3px transparent;
+    transition: 0.5s;
+}
+.adet:hover{
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 3px var(--lightblue);
+}
+.wrap{
+flex-wrap: wrap;
+}
